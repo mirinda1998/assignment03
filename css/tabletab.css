@@ -51,7 +51,7 @@
   }
 
   i {
-    color: #339af0;
+    color: #51cf66;
   }
 
   .icon-star-1 {
@@ -144,25 +144,12 @@
     text-align: left;
   }
 
-  #job-info .block-c-job-inf .c-job-inf ul li::before {
-    content: "";
-    display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
-    margin-left: -1rem;
-    margin-right: 0.3rem;
-    background-color: dodgerblue;
-    border-radius: 50%;
-  }
-
   .fix-pading {
     padding-left: 1.5rem;
   }
   .c-job-inf {
     padding: 0;
-
     border: none;
-    opacity: 0.7;
     text-align: left;
   }
   .c-job-inf-head {
@@ -175,9 +162,9 @@
     height: 40px;
     font-size: 15px;
     font-weight: bold;
-    color: dodgerblue;
+    color: #51cf66;
     text-align: center;
-    border: 2px solid dodgerblue;
+    border: 2px solid #51cf66;
     padding: 10px;
     border-radius: 50%;
   }
@@ -189,6 +176,21 @@
     text-align: center;
     padding-top: 20px;
     font-size: 15px;
+  }
+  /* Skill and Language -------- */
+  .span-blue {
+    display: inline-block;
+    background: #51cf66;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .span-grey {
+    display: inline-block;
+    background: #dee2e6;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
   }
   /* BEGIN CERTIFICATE BLOCK STYLE */
   #certificate {
@@ -214,7 +216,6 @@
   /*/##############*/
   /*  PROJECTS */
   .c-project {
-    /*width: 250px;*/
     border: 1px solid #f0f0f0;
   }
   #project .container .container-project {
@@ -227,13 +228,11 @@
     text-transform: uppercase;
     font-size: 15px;
     padding: 1.5rem;
-    /*  padding-left: 10px;*/
-    /* width: 345px;*/
+
     border: 1px solid #f0f0f0;
     opacity: 0.7;
   }
   #project .container .container-project table {
-    opacity: 0.7;
     font-size: 12px;
   }
   #project .container .container-project .c-project-nav {
@@ -242,10 +241,14 @@
     align-items: center;
     align-content: flex-end;
 
-    opacity: 0.7;
     font-size: 12px;
     padding: 1.5rem;
     border: 1px solid #f0f0f0;
+  }
+
+  .c-project-name {
+    text-transform: uppercase;
+    text-decoration: none;
   }
   #project .container .container-project .c-project table,
   tr {
@@ -273,7 +276,10 @@
     width: 120px;
   }
   .footer-icons i {
-    transform: scale(3);
+    font-size: 1.5rem;
+
+    text-align: center;
+    justify-content: space-between;
   }
   .section-footer p {
     display: none;

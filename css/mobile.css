@@ -110,6 +110,21 @@
     padding-top: 20px;
     font-size: 15px;
   }
+  /* Skill and Language -------- */
+  .span-blue {
+    display: inline-block;
+    background: #51cf66;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .span-grey {
+    display: inline-block;
+    background: #dee2e6;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
   .section-title {
     text-transform: uppercase;
     line-height: 2rem;
@@ -157,6 +172,11 @@
     font-size: 10px;
     text-align: left;
   }
+
+  .c-project-name {
+    text-transform: uppercase;
+    text-decoration: none;
+  }
   #project .container .container-project .c-project table,
   tr {
     border: 1px solid #f0f0f0;
@@ -183,7 +203,10 @@
     width: 120px;
   }
   .footer-icons i {
-    transform: scale(3);
+    font-size: 1.5rem;
+
+    text-align: center;
+    justify-content: space-between;
   }
   .section-footer p {
     display: none;

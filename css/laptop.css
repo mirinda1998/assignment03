@@ -108,7 +108,7 @@ html {
     border-radius: 50%;
   }
 
-  /* BEGIN PERSONAL INFO BLOCK STYLE */
+  /* PERSONAL INFO BLOCK STYLE */
   #about {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -149,8 +149,6 @@ html {
     height: 20px;
     padding: 0 10px;
   }
-  /* End personal info block Style */
-  /*********************************/
 
   /* BEGIN JOBINFO BLOCK STYLE */
   #job-info {
@@ -211,7 +209,7 @@ html {
   /* Skill and Language -------- */
   .span-blue {
     display: inline-block;
-    background: #199cdb;
+    background: #51cf66;
     height: 2px;
     margin-right: 10px;
     width: 45px;
@@ -242,8 +240,7 @@ html {
     grid-template-rows: 1fr;
     padding: 2rem 1rem;
   }
-  .c-cert .c-cert-content p {
-  }
+
   /* End Certificate block style */
   /******/
   /* BEGIN PROJECTS BLOCK STYLE */
@@ -269,8 +266,7 @@ html {
   .c-project-name {
     text-transform: uppercase;
   }
-  #project .container .container-project table {
-  }
+
   #project .container .container-project .c-project table,
   tr {
     border: 1px solid #f0f0f0;
@@ -307,5 +303,8 @@ html {
 
   .section-footer a:hover {
     text-decoration: underline;
+  }
+  .footer-icons i {
+    font-size: 2rem;
   }
 }
